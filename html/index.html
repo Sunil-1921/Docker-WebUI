@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task 7</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="script.js"></script>
+	<style src="style.css"></style>
+</head>
+<body>
+
+<div class="docker">
+  <h1><u>Docker WebUI</u></h1>
+</div>
+
+
+<div class="bg">
+  <img src="bg.png" width="900" height="450">
+</div>
+
+<div class="html">
+  <img src="html.png" width="100" height="100">
+</div>
+
+<div class="css">
+  <img src="css.png" width="100" height="100">
+</div>
+
+<div class="py">
+  <img src="PY.png" width="100" height="100">
+</div>
+
+<div class="js">
+  <img src="JS.png" width="100" height="100">
+</div>
+
+
+<div id="container">
+  <div id="screen">
+    <div id="userInput">
+      <input type="text" value="[root@localhost ~]#" id="prompt" size="28" readonly="readonly">
+      <input type="text1" id="txtBox" onkeypress="commandProcessor(event)" placeholder="Enter your command" size="40" autofocus>
+    </div>
+  </div>
+</div>
+
+<div class="out">
+  <pre>
+    <h3>Output:-</h3>
+    <div id="injected"></div>
+  </pre>
+</div>
+
+</body>
+</html>
