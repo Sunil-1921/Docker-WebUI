@@ -8,5 +8,5 @@ This WebApp will help the user to run all the docker commands like:-
 👉docker start/stop
  👉docker pull 
   👉docker exec
- 👉much more...
+ 👉and much more...
 👉linux command
